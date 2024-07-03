@@ -7,6 +7,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { CabecalhoComponent } from './pages/portfolio/cabecalho/cabecalho.component';
 import { MenuComponent } from './pages/portfolio/menu/menu.component';
 import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
+import { ProjetosComponent } from './pages/porfolio/projetos/projetos.component';
+import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
     PortfolioComponent,
     CabecalhoComponent,
     MenuComponent,
-    SobreComponent
+    SobreComponent,
+    ProjetosComponent,
+    PiadasComponent
   ],
   imports: [
     BrowserModule,

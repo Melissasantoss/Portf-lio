@@ -9,6 +9,7 @@ import { MenuComponent } from './pages/portfolio/menu/menu.component';
 import { SobreComponent } from './pages/portfolio/sobre/sobre.component';
 import { ProjetosComponent } from './pages/porfolio/projetos/projetos.component';
 import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,9 @@ import { PiadasComponent } from './pages/repositorio/piadas/piadas.component';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [provideHttpClient()],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+
